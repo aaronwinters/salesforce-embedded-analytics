@@ -1,14 +1,10 @@
 # SFDX  App
 
-## Dev, Build and Test
+## How to install and configure the app
 
 
 ## Resources
 
 
 ## Description of Files and Directories
-
-
-## Issues
-
 
