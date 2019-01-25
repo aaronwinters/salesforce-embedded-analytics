@@ -1,0 +1,4 @@
+<apex:page standardController="Account" showheader="false" sidebar="false">
+  <apex:iframe src="[ngrok URL][Qlik Sense Single Object URL]&select=AccountId,{!Account.Id}" height="400px" width="100%" frameborder="0">
+  </apex:iframe>
+</apex:page>

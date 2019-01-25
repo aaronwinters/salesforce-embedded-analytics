@@ -1,0 +1,4 @@
+<apex:page standardController="Account" showheader="false" sidebar="false">
+  <apex:iframe src="[URL FOR TABLEAU DASHBOARD]?:embed=y&:showShareOptions=false&:toolbar=false&:display_count=no&:showVizHome=no&Id%20(Account)={! Account.Id }" height="300px" width="100%" scrolling="true">
+  </apex:iframe>
+</apex:page>
