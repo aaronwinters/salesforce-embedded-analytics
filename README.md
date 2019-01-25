@@ -4,9 +4,9 @@ The repository contains the source code and metadata for embedding various data 
 ## Install and Configure the App
 
 ### Installation
-1. Install Salesforce DX. Enable the Dev Hub in your org or sign up for a Dev Hub trial org and install the Salesforce DX CLI. Follow the instructions in the [Salesforce DX Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm?search_text=trial%20hub%20org) or in the [guide for setting up the CLI on WSL](https://www.aaronwinters.org/setting-up-sfdx-cli-on-the-windows-subsystem-for-linux/).
+1. Install Salesforce DX. Follow the instructions in the [Salesforce DX Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm) or in the [guide for setting up the CLI on WSL](https://www.aaronwinters.org/setting-up-sfdx-cli-on-the-windows-subsystem-for-linux/).
 
-1. Clone the **dreamhouse-sfdx** repository:
+1. Clone the **salesforce-embedded-analytics** repository:
 
    ```
    git clone https://github.com/aaronwinters/salesforce-embedded-analytics.git
