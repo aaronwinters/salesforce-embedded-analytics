@@ -14,5 +14,13 @@
         <members>unfiled$public/Opportunities_by_Stage_and_Quarter</members>
         <name>Report</name>
     </types>
+    <types>
+        <members>Sample_Revenue_Pipeline_Dashboard</members>
+        <name>WaveDashboard</name>
+    </types>
+    <types>
+        <members>SharedApp</members>
+        <name>WaveApplication</name>
+    </types>
     <version>44.0</version>
 </Package>
