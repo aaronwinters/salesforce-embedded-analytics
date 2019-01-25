@@ -11,6 +11,10 @@
         <name>FlexiPage</name>
     </types>
     <types>
+        <members>Embedded_Analytics</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
         <members>unfiled$public/Opportunities_by_Stage_and_Quarter</members>
         <name>Report</name>
     </types>
