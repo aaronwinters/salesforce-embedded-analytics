@@ -28,7 +28,7 @@ The repository contains the source code and metadata for embedding various data 
 1. Assign the **Embedded Analytics** permission set to the default user:
 
    ```
-   sfdx force:user:permset:assign -n embedded_analytics
+   sfdx force:user:permset:assign -n Embedded_Analytics
    ```
 
 1. Open the scratch org:
@@ -40,12 +40,12 @@ The repository contains the source code and metadata for embedding various data 
 ### Configure Embedded Einstein Analytics Dashboard
 Complete the steps in the [embedding Einstein Analytics dashboards in Salesforce](https://www.aaronwinters.org/embed-einstein-analytics-dashboard-in-salesforce-records/) tutorial.
 
-## Configure Embedded Tableau Dashboards
+### Configure Embedded Tableau Dashboards
 Complete the steps in the [embedding Tableau dashboards in Salesforce using Visualforce](https://www.aaronwinters.org/embed-tableau-dashboard-in-salesforce-records-using-visualforce/) tutorial. Be sure to replace [URL FOR TABLEAU DASHBOARD] in the SimpleTableauEmbed visualforce page with your Tableau Online/Server URL.
 
 Complete the steps in the [embedding Tableau dashboards in Salesforce using Canvas](https://www.aaronwinters.org/embed-tableau-dashboard-in-salesforce-records-with-canvas/) tutorial.
 
-## Configure Embedded Qlik Sense Visualizations
+### Configure Embedded Qlik Sense Visualizations
 Complete the steps in the [embedding Tableau dashboards in Salesforce using Visualforce](https://www.aaronwinters.org/embed-qlik-sense-dashboards-in-salesforce-records/) tutorial. Be sure to replace `[ngrok URL][Qlik Sense Single Object URL]` in the QlikSenseEmbed visualforce page with your Qlik Sense Server URL.
 
 ## Resources
