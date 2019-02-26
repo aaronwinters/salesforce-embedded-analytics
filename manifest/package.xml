@@ -19,6 +19,10 @@
         <name>Report</name>
     </types>
     <types>
+        <members>chartjslibrary</members>
+        <name>StaticResource</name>
+    </types>
+    <types>
         <members>Sample_Revenue_Pipeline_Dashboard</members>
         <name>WaveDashboard</name>
     </types>
