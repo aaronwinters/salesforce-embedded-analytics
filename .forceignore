@@ -3,3 +3,7 @@
 #
 
 package.xml
+force-app/main/default/pages/*
+**/jsconfig.json
+
+**/.eslintrc.json
