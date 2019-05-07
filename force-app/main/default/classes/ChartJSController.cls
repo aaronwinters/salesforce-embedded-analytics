@@ -1,5 +1,5 @@
 public with sharing class ChartJSController {
-    
+
     public class ChartDataWrapper {
         String label;
         List<Integer> data;
@@ -16,14 +16,14 @@ public with sharing class ChartJSController {
 
     }
 
-    @AuraEnabled
+    @AuraEnabled(cacheable=true)
     public static List<String> getAxisLabels () {
         List<String> tempList = new List<String> {'Q3 2017', 'Q2 2018', 'Q3 2018'};
         return tempList;
         
     }
-    
-    @AuraEnabled
+
+    @AuraEnabled(cacheable=true)
     public static String getChartDataset() {
         List<ChartDataWrapper> recordChartDataset = new List<ChartDataWrapper>();
         recordChartDataset.add(new ChartDataWrapper('Closed Won', new List<Integer>{90274, 3440, 0}, '#512DA8', '#7E57C2'));
