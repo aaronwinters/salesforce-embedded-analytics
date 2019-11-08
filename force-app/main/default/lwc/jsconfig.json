@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "c/tableauJSEmbed": [
+                "tableauJSEmbed/tableauJSEmbed.js"
+            ]
+        }
+    }
+}
