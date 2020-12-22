@@ -1,0 +1,19 @@
+<apex:page standardController="Account" showHeader="false" sidebar="false">
+    <apex:includeScript value="{!$Resource.tableaujsapi230}"/>
+    <div class="container-fluid" id='viz'></div>
+    <script type="text/javascript">
+        window.onload = function() {
+        var vizDiv = document.getElementById('viz');
+        var vizURL = 'https://tableau.fairtradecertified.org/views/EmbedTest_RevPipeline/Dashboard1';
+        var options = {
+          height: '300px',
+          width: '100%',
+          hideTabs: true,
+          hideToolbar: true,
+          "Id (Account)": "{! Account.Id}"
+        }
+  
+        viz = new tableauSoftware.Viz(vizDiv, vizURL, options);
+      };
+    </script>
+</apex:page>
